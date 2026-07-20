@@ -41,7 +41,7 @@ export default function Navbar() {
       >
         <img src="/l2.png" alt="RituFlow Logo" className="h-14 w-auto object-contain shrink-0" />
         <div>
-          <h1 className="text-2xl font-bold text-primary dark:text-primary-fixed leading-tight tracking-tight">RituFlow AI</h1>
+          <h1 className="text-2xl font-extrabold font-outfit text-primary dark:text-primary-fixed leading-tight tracking-tight">RituFlow</h1>
           <p className="text-xs text-on-surface-variant uppercase tracking-wider font-semibold">Rural Fintech</p>
         </div>
       </div>

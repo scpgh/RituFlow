@@ -76,15 +76,18 @@ export default {
         "lg": "24px"
       },
       fontFamily: {
-        "headline-sm": ["Inter", "sans-serif"],
-        "headline-lg-mobile": ["Inter", "sans-serif"],
-        "body-sm": ["Inter", "sans-serif"],
-        "headline-md": ["Inter", "sans-serif"],
-        "body-md": ["Inter", "sans-serif"],
-        "label-md": ["Inter", "sans-serif"],
-        "headline-lg": ["Inter", "sans-serif"],
-        "label-sm": ["Inter", "sans-serif"],
-        "body-lg": ["Inter", "sans-serif"]
+        "outfit": ["Outfit", "sans-serif"],
+        "sora": ["Sora", "sans-serif"],
+        "sans": ["Plus Jakarta Sans", "sans-serif"],
+        "headline-sm": ["Plus Jakarta Sans", "sans-serif"],
+        "headline-lg-mobile": ["Plus Jakarta Sans", "sans-serif"],
+        "body-sm": ["Plus Jakarta Sans", "sans-serif"],
+        "headline-md": ["Plus Jakarta Sans", "sans-serif"],
+        "body-md": ["Plus Jakarta Sans", "sans-serif"],
+        "label-md": ["Plus Jakarta Sans", "sans-serif"],
+        "headline-lg": ["Plus Jakarta Sans", "sans-serif"],
+        "label-sm": ["Plus Jakarta Sans", "sans-serif"],
+        "body-lg": ["Plus Jakarta Sans", "sans-serif"]
       },
       fontSize: {
         "headline-sm": ["20px", { lineHeight: "28px", fontWeight: "600" }],

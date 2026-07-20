@@ -57,8 +57,8 @@ export default function Login() {
         {/* Logo Section */}
         <div className="flex flex-col items-center mb-8">
           <img src="/l2.png" alt="RituFlow Logo" className="w-20 h-20 object-contain mb-3" />
-          <h1 className="font-headline-md text-headline-md text-primary tracking-tight font-bold">RituFlow AI</h1>
-          <p className="font-label-md text-label-md text-on-surface-variant mt-1">Smart Rural Fintech</p>
+          <h1 className="font-headline-md text-headline-md font-outfit text-primary tracking-tight font-extrabold">RituFlow</h1>
+          <p className="font-label-md text-label-md text-on-surface-variant mt-1">Rural Fintech</p>
         </div>
 
         {/* Card */}
