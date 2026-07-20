@@ -33,16 +33,8 @@ export default function Sidebar() {
   const activeMenu = isOfficer ? officerMenu : enterpriseMenu;
 
   return (
-    <aside className="fixed left-0 top-0 h-full flex flex-col pt-20 pb-8 px-4 z-40 bg-surface-container-lowest dark:bg-surface-container border-r border-outline-variant w-64 shadow-md transition-all hidden md:flex">
-      <div className="flex items-center gap-md px-4 mb-xl">
-        <div className="w-10 h-10 rounded-xl bg-primary-container flex items-center justify-center text-on-primary-container font-bold">
-          RF
-        </div>
-        <div>
-          <h2 className="font-label-md text-label-md text-primary font-bold">RituFlow AI</h2>
-          <p className="text-[10px] text-on-surface-variant uppercase tracking-wider font-semibold">Rural Fintech</p>
-        </div>
-      </div>
+    <aside className="fixed left-0 top-0 h-full flex flex-col pt-24 pb-8 px-4 z-40 bg-surface-container-lowest dark:bg-surface-container border-r border-outline-variant w-64 shadow-md transition-all hidden md:flex">
+
 
       <nav className="flex-1 space-y-2">
         {activeMenu.map((item) => (

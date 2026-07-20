@@ -34,22 +34,16 @@ export default function Navbar() {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-gutter h-16 bg-surface dark:bg-surface-dim shadow-sm border-b border-outline-variant/30">
-      <div className="flex items-center gap-md">
-        <span 
-          onClick={() => navigate(isOfficer ? '/officer/dashboard' : '/enterprise/dashboard')} 
-          className="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed cursor-pointer select-none"
-        >
-          RituFlow
-        </span>
-        
-        {/* Breadcrumb / Context pill */}
-        <span className={`hidden sm:inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold ${isOfficer ? 'bg-secondary-fixed text-on-secondary-fixed' : 'bg-primary-fixed text-on-primary-fixed'}`}>
-          <span className="material-symbols-outlined text-[14px]">
-            {isOfficer ? 'badge' : 'eco'}
-          </span>
-          {isOfficer ? 'Field Officer Portal' : 'Micro-Enterprise Portal'}
-        </span>
+    <header className="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-gutter h-20 bg-surface dark:bg-surface-dim shadow-sm border-b border-outline-variant/30">
+      <div 
+        onClick={() => navigate(isOfficer ? '/officer/dashboard' : '/enterprise/dashboard')} 
+        className="flex items-center gap-3 cursor-pointer select-none"
+      >
+        <img src="/l2.png" alt="RituFlow Logo" className="h-14 w-auto object-contain shrink-0" />
+        <div>
+          <h1 className="text-2xl font-bold text-primary dark:text-primary-fixed leading-tight tracking-tight">RituFlow AI</h1>
+          <p className="text-xs text-on-surface-variant uppercase tracking-wider font-semibold">Rural Fintech</p>
+        </div>
       </div>
 
       <div className="hidden md:flex flex-1 max-w-xl mx-xl">

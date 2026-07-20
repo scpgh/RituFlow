@@ -55,13 +55,8 @@ export default function Login() {
     <AuthLayout>
       <div className="w-full max-w-md relative z-10">
         {/* Logo Section */}
-        <div className="flex flex-col items-center mb-10">
-          <div className="w-16 h-16 bg-surface-container-lowest shadow-sm rounded-xl flex items-center justify-center mb-4 border border-outline-variant relative">
-            <span className="material-symbols-outlined text-primary text-4xl" style={{ fontVariationSettings: "'FILL' 1" }}>eco</span>
-            <div className="absolute translate-x-4 -translate-y-2">
-              <span className="material-symbols-outlined text-secondary text-2xl" style={{ fontVariationSettings: "'FILL' 0", fontWeight: 700 }}>waves</span>
-            </div>
-          </div>
+        <div className="flex flex-col items-center mb-8">
+          <img src="/l2.png" alt="RituFlow Logo" className="w-20 h-20 object-contain mb-3" />
           <h1 className="font-headline-md text-headline-md text-primary tracking-tight font-bold">RituFlow AI</h1>
           <p className="font-label-md text-label-md text-on-surface-variant mt-1">Smart Rural Fintech</p>
         </div>
